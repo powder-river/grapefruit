@@ -1,0 +1,227 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'update', '-g' ]
+2 info using npm@3.10.3
+3 info using node@v4.4.7
+4 silly mapToRegistry name brunch
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'brunch',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'brunch',
+7 silly mapToRegistry   name: 'brunch',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/brunch
+9 silly mapToRegistry name npm
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'npm',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'npm',
+12 silly mapToRegistry   name: 'npm',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/npm
+14 verbose request uri https://registry.npmjs.org/brunch
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 7:17:16 PM
+17 verbose request id e3be3ce755c408bc
+18 verbose etag "89M028XENNH5W7E8ZBGG4ROYA"
+19 http request GET https://registry.npmjs.org/brunch
+20 verbose request uri https://registry.npmjs.org/npm
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 7:17:16 PM
+23 verbose etag "8S7OG8COXKQEVZHO4ZG49EKZJ"
+24 http request GET https://registry.npmjs.org/npm
+25 http 304 https://registry.npmjs.org/npm
+26 verbose headers { date: 'Thu, 30 Jun 2016 23:17:16 GMT',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   'cache-control': 'max-age=300',
+26 verbose headers   etag: '"8S7OG8COXKQEVZHO4ZG49EKZJ"',
+26 verbose headers   age: '254',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'x-served-by': 'cache-iad2133-IAD',
+26 verbose headers   'x-cache': 'HIT',
+26 verbose headers   'x-cache-hits': '2',
+26 verbose headers   'x-timer': 'S1467328636.478230,VS0,VE0',
+26 verbose headers   vary: 'Accept-Encoding' }
+27 silly get cb [ 304,
+27 silly get   { date: 'Thu, 30 Jun 2016 23:17:16 GMT',
+27 silly get     via: '1.1 varnish',
+27 silly get     'cache-control': 'max-age=300',
+27 silly get     etag: '"8S7OG8COXKQEVZHO4ZG49EKZJ"',
+27 silly get     age: '254',
+27 silly get     connection: 'keep-alive',
+27 silly get     'x-served-by': 'cache-iad2133-IAD',
+27 silly get     'x-cache': 'HIT',
+27 silly get     'x-cache-hits': '2',
+27 silly get     'x-timer': 'S1467328636.478230,VS0,VE0',
+27 silly get     vary: 'Accept-Encoding' } ]
+28 verbose etag https://registry.npmjs.org/npm from cache
+29 verbose get saving npm to /home/danai/.npm/registry.npmjs.org/npm/.cache.json
+30 verbose correctMkdir /home/danai/.npm correctMkdir not in flight; initializing
+31 http 304 https://registry.npmjs.org/brunch
+32 verbose headers { date: 'Thu, 30 Jun 2016 23:17:16 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   etag: '"89M028XENNH5W7E8ZBGG4ROYA"',
+32 verbose headers   age: '167',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-jfk1047-JFK',
+32 verbose headers   'x-cache': 'HIT',
+32 verbose headers   'x-cache-hits': '1',
+32 verbose headers   'x-timer': 'S1467328636.501633,VS0,VE0',
+32 verbose headers   vary: 'Accept-Encoding' }
+33 silly get cb [ 304,
+33 silly get   { date: 'Thu, 30 Jun 2016 23:17:16 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     'cache-control': 'max-age=300',
+33 silly get     etag: '"89M028XENNH5W7E8ZBGG4ROYA"',
+33 silly get     age: '167',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-jfk1047-JFK',
+33 silly get     'x-cache': 'HIT',
+33 silly get     'x-cache-hits': '1',
+33 silly get     'x-timer': 'S1467328636.501633,VS0,VE0',
+33 silly get     vary: 'Accept-Encoding' } ]
+34 verbose etag https://registry.npmjs.org/brunch from cache
+35 verbose get saving brunch to /home/danai/.npm/registry.npmjs.org/brunch/.cache.json
+36 verbose correctMkdir /home/danai/.npm correctMkdir not in flight; initializing
+37 info outdated updating [ { dep:
+37 info outdated      Node {
+37 info outdated        id: 2,
+37 info outdated        package: [Object],
+37 info outdated        path: '/usr/lib/node_modules/npm',
+37 info outdated        realpath: '/usr/lib/node_modules/npm',
+37 info outdated        parent: [Object],
+37 info outdated        isLink: false,
+37 info outdated        children: [Object],
+37 info outdated        error: null,
+37 info outdated        loaded: false,
+37 info outdated        requiredBy: [],
+37 info outdated        requires: [Object],
+37 info outdated        missingDeps: {},
+37 info outdated        missingDevDeps: {},
+37 info outdated        phantomChildren: {},
+37 info outdated        location: '/npm',
+37 info outdated        userRequired: false,
+37 info outdated        existing: false,
+37 info outdated        isTop: false,
+37 info outdated        resolved: [Object] },
+37 info outdated     depname: 'npm',
+37 info outdated     current: '3.10.3',
+37 info outdated     wanted: '3.10.4',
+37 info outdated     latest: '3.10.3',
+37 info outdated     req: '*',
+37 info outdated     what: 'npm@3.10.4' } ]
+38 silly loadCurrentTree Starting
+39 silly install loadCurrentTree
+40 silly install readGlobalPackageData
+41 silly fetchPackageMetaData npm@3.10.4
+42 silly fetchNamedPackageData npm
+43 silly mapToRegistry name npm
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry data Result {
+46 silly mapToRegistry   raw: 'npm',
+46 silly mapToRegistry   scope: null,
+46 silly mapToRegistry   escapedName: 'npm',
+46 silly mapToRegistry   name: 'npm',
+46 silly mapToRegistry   rawSpec: '',
+46 silly mapToRegistry   spec: 'latest',
+46 silly mapToRegistry   type: 'tag' }
+47 silly mapToRegistry uri https://registry.npmjs.org/npm
+48 verbose get https://registry.npmjs.org/npm not expired, no request
+49 silly install normalizeTree
+50 silly loadCurrentTree Finishing
+51 silly loadIdealTree Starting
+52 silly install loadIdealTree
+53 silly cloneCurrentTree Starting
+54 silly install cloneCurrentTreeToIdealTree
+55 silly cloneCurrentTree Finishing
+56 silly loadShrinkwrap Starting
+57 silly install loadShrinkwrap
+58 silly loadShrinkwrap Finishing
+59 silly loadAllDepsIntoIdealTree Starting
+60 silly install loadAllDepsIntoIdealTree
+61 silly resolveWithNewModule npm@3.10.4 checking installable status
+62 silly cache add args [ 'npm@3.10.4', null ]
+63 verbose cache add spec npm@3.10.4
+64 silly cache add parsed spec Result {
+64 silly cache add   raw: 'npm@3.10.4',
+64 silly cache add   scope: null,
+64 silly cache add   escapedName: 'npm',
+64 silly cache add   name: 'npm',
+64 silly cache add   rawSpec: '3.10.4',
+64 silly cache add   spec: '3.10.4',
+64 silly cache add   type: 'version' }
+65 silly addNamed npm@3.10.4
+66 verbose addNamed "3.10.4" is a plain semver version for npm
+67 silly mapToRegistry name npm
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'npm',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'npm',
+70 silly mapToRegistry   name: 'npm',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/npm
+72 verbose addNameVersion registry:https://registry.npmjs.org/npm not in flight; fetching
+73 verbose get https://registry.npmjs.org/npm not expired, no request
+74 silly mapToRegistry name npm
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'npm',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   escapedName: 'npm',
+77 silly mapToRegistry   name: 'npm',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/npm
+79 verbose addRemoteTarball https://registry.npmjs.org/npm/-/npm-3.10.4.tgz not in flight; adding
+80 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm/-/npm-3.10.4.tgz',
+80 verbose addRemoteTarball   '92c744443f111d8b1076bf042ee67e1d527e9507' ]
+81 info retry fetch attempt 1 at 7:17:17 PM
+82 info attempt registry request try #1 at 7:17:17 PM
+83 http fetch GET https://registry.npmjs.org/npm/-/npm-3.10.4.tgz
+84 http fetch 200 https://registry.npmjs.org/npm/-/npm-3.10.4.tgz
+85 info retry will retry, error on last attempt: Error: 139908478166848:error:1408F119:SSL routines:SSL3_GET_RECORD:decryption failed or bad record mac:../deps/openssl/openssl/ssl/s3_pkt.c:532:
+86 info retry will retry, error on last attempt: Error: 139908478166848:error:1408F119:SSL routines:SSL3_GET_RECORD:decryption failed or bad record mac:../deps/openssl/openssl/ssl/s3_pkt.c:532:
+87 silly fetchAndShaCheck shasum 92c744443f111d8b1076bf042ee67e1d527e9507
+88 silly rollbackFailedOptional Starting
+89 silly rollbackFailedOptional Finishing
+90 silly runTopLevelLifecycles Starting
+91 silly runTopLevelLifecycles Finishing
+92 silly install printInstalled
+93 verbose stack Error: shasum check failed for /tmp/npm-11275-34e4ac93/registry.npmjs.org/npm/-/npm-3.10.4.tgz
+93 verbose stack Expected: 92c744443f111d8b1076bf042ee67e1d527e9507
+93 verbose stack Actual:   a8f27dcd838a39022ecf12c28f9be9abf17219bc
+93 verbose stack From:     https://registry.npmjs.org/npm/-/npm-3.10.4.tgz
+93 verbose stack     at /usr/lib/node_modules/npm/node_modules/sha/index.js:25:8
+93 verbose stack     at ReadStream.<anonymous> (/usr/lib/node_modules/npm/node_modules/sha/index.js:72:7)
+93 verbose stack     at emitNone (events.js:72:20)
+93 verbose stack     at ReadStream.emit (events.js:166:7)
+93 verbose stack     at endReadableNT (_stream_readable.js:921:12)
+93 verbose stack     at nextTickCallbackWith2Args (node.js:442:9)
+93 verbose stack     at process._tickCallback (node.js:356:17)
+94 verbose cwd /home/danai/code/grapefruit
+95 error Linux 4.4.0-28-generic
+96 error argv "/usr/bin/nodejs" "/usr/bin/npm" "update" "-g"
+97 error node v4.4.7
+98 error npm  v3.10.3
+99 error shasum check failed for /tmp/npm-11275-34e4ac93/registry.npmjs.org/npm/-/npm-3.10.4.tgz
+99 error Expected: 92c744443f111d8b1076bf042ee67e1d527e9507
+99 error Actual:   a8f27dcd838a39022ecf12c28f9be9abf17219bc
+99 error From:     https://registry.npmjs.org/npm/-/npm-3.10.4.tgz
+100 error If you need help, you may report this error at:
+100 error     <https://github.com/npm/npm/issues>
+101 verbose exit [ 1, true ]

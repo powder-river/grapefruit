@@ -37,7 +37,7 @@ config :phoenix, :stacktrace_depth, 20
 config :grapefruit, Grapefruit.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "postgres",
-  database: "grapefruit_dev",
+  password: "vc005129",
+  database: "grapefruit",
   hostname: "localhost",
   pool_size: 10
